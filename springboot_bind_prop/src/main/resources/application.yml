@@ -1,0 +1,17 @@
+acme:
+  enabled: true
+  remote-address: 192.168.0.108
+  security:
+    username: txjava
+    password: 123
+    roles:
+      - 男主角
+      - 摄影师
+      - 女主角
+  my-person:
+    person:
+      first-name: 黄达
+      age: 25
+      email: 1647865831@qq.com
+      school:
+        s-name: 长江大学

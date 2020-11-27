@@ -1,0 +1,9 @@
+# Project exclude paths
+/java_spi/ali_pay/target/
+/java_spi/main_test/target/
+/java_spi/servvice_common/target/
+/java_spi/wx_pay/target/
+/spring_boot_datasource/target/
+/springboot_bind_prop/target/
+/springboot_config/target/
+/springboot_first/target/
