@@ -15,6 +15,10 @@
         <module>java_spi</module>
         <module>service_common</module>
         <module>spring_boot_datasource</module>
+        <module>springboot_mybatis_anno</module>
+        <module>springboot_mybatis_config</module>
+        <module>springboot-company-sys</module>
+        <module>spring_boot_redis</module>
     </modules>
     <packaging>pom</packaging>
 

@@ -12,5 +12,4 @@ public class AnthorCompotent {
 
     private InetAddress remoteAddress;
 
-
 }

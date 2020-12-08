@@ -8,13 +8,17 @@
         <outputRelativeToContentRoot value="true" />
         <module name="service_common" />
         <module name="springboot_bind_prop" />
+        <module name="springboot_mybatis_anno" />
+        <module name="spring_boot_redis" />
+        <module name="spring_boot_datasource" />
+        <module name="servvice_common" />
+        <module name="springboot_mybatis_config" />
         <module name="main_test" />
         <module name="wx_pay" />
-        <module name="spring_boot_datasource" />
+        <module name="springboot-company-sys" />
         <module name="springboot_first" />
         <module name="springboot_config" />
         <module name="ali_pay" />
-        <module name="servvice_common" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -30,10 +34,14 @@
       <module name="service_common" options="-parameters" />
       <module name="servvice_common" options="-parameters" />
       <module name="spring_boot_datasource" options="-parameters" />
+      <module name="spring_boot_redis" options="-parameters" />
       <module name="spring_config" options="-parameters" />
+      <module name="springboot-company-sys" options="-parameters" />
       <module name="springboot_bind_prop" options="-parameters" />
       <module name="springboot_config" options="-parameters" />
       <module name="springboot_first" options="-parameters" />
+      <module name="springboot_mybatis_anno" options="-parameters" />
+      <module name="springboot_mybatis_config" options="-parameters" />
       <module name="wx_pay" options="-parameters" />
     </option>
   </component>

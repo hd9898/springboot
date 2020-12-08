@@ -9,19 +9,21 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@EnableConfigurationProperties(AcmeProperties.class)
+//@EnableConfigurationProperties(AcmeProperties.class)
 public class TestController {
 
-    public AcmeProperties properties ;
+//    @Autowired
+//    public AcmeProperties properties ;
 
-    public TestController(AcmeProperties properties) {
-        this.properties = properties;
-    }
+//    public TestController(AcmeProperties properties) {
+//        this.properties = properties;
+//    }
 
     @RequestMapping("test")
-    public AcmeProperties test(){
-
-        return properties;
+    public String test(){
+//        System.out.println(properties);
+        //return properties;
+        return "trst";
     }
 
 }

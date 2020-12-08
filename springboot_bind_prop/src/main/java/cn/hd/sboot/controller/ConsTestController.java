@@ -1,5 +1,6 @@
 package cn.hd.sboot.controller;
 
+import cn.hd.sboot.model.AcmeProperties;
 import cn.hd.sboot.model.AnthorCompotent;
 import cn.hd.sboot.model.Dep;
 import cn.hd.sboot.model.OwnerProperties;
@@ -11,14 +12,14 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ConsTestController {
 
-    @Bean
-    public Dep getDep(){
+//    @Bean
+//    public Dep getDep(){
+//
+//        return  new Dep();
+//    }
 
-        return  new Dep();
-    }
-
-    @Autowired
-    private Dep dep;
+//    @Autowired
+//    private Dep dep;
 
     @Autowired
     private AnthorCompotent anthorCompotent;
@@ -26,9 +27,12 @@ public class ConsTestController {
     @Autowired
     private OwnerProperties properties;
 
+    @Autowired
+    public AcmeProperties properties1;
+
     @RequestMapping("hello")
     public String hello(){
-        System.out.println(dep);
+//        System.out.println(dep);
         return "hello";
     }
     @RequestMapping("anther")

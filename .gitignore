@@ -7,3 +7,4 @@
 /springboot_bind_prop/target/
 /springboot_config/target/
 /springboot_first/target/
+*.txt
